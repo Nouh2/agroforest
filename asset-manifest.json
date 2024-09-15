@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/agroforest/static/css/main.349b00fc.css",
-    "main.js": "/agroforest/static/js/main.f7aa8e9c.js",
+    "main.js": "/agroforest/static/js/main.f5211f2c.js",
     "static/media/background.jpg": "/agroforest/static/media/background.6b7431aa37eaead30386.jpg",
     "index.html": "/agroforest/index.html",
     "main.349b00fc.css.map": "/agroforest/static/css/main.349b00fc.css.map",
-    "main.f7aa8e9c.js.map": "/agroforest/static/js/main.f7aa8e9c.js.map"
+    "main.f5211f2c.js.map": "/agroforest/static/js/main.f5211f2c.js.map"
   },
   "entrypoints": [
     "static/css/main.349b00fc.css",
-    "static/js/main.f7aa8e9c.js"
+    "static/js/main.f5211f2c.js"
   ]
 }
