@@ -1,38 +1,118 @@
-.App {
+.app {
+  font-family: "Roboto", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: #373534;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: url("../public/background.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  flex-direction: column;
+}
+
+.header-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo1 {
+  height: 110px;
+  margin-right: 10px;
+}
+.logo2 {
+  height: 150px;
+  margin-right: 10px;
+}
+.logo3 {
+  height: 130px;
+  margin-right: 10px;
+}
+.logo4 {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header-text {
   text-align: center;
+  color: white;
+  font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-content {
+  display: flex;
+  flex: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu {
+  width: 15%;
+  background-color: #abbdab;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu a {
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+  color: inherit;
+  text-decoration: none;
+}
+.menu p {
+  margin: 0;
+  padding: 10px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  background-color: #e4e1e0;
+  width: 85%;
+  padding: 30px 175px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.content img {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.quote {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.content h2 {
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  margin: 20px;
+}
+
+footer {
+  padding: 10px;
+}
+
+img {
+  margin: 10px;
 }
