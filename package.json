@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Nouh2.github.io/agroforest",
+  "homepage": "http://www.maroc-agroforesterie.org/",
   "eslintConfig": {
     "extends": [
       "react-app",
