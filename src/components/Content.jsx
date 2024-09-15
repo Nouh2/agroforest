@@ -20,7 +20,7 @@ function Content() {
             En réunissant les principaux décideurs de la chaine de valeur agricole, cette première édition vise à permettre à chacun d'enrichir la feuille de route pour une agriculture marocaine résiliente, durable et souveraine.
         </p>
       </div>
-      <img src="/footer.png" alt="footer" />
+      <img src="./footer.png" alt="footer" />
     </div>
   );
 }
