@@ -8,7 +8,7 @@ const Header = () => {
         <img src="./MAPDEF.png" alt="Logo 2" className="logo2" />
         <img src="./images.png" alt="Logo 3" className="logo3" />
         <img src="./aryam.png" alt="Logo 4" className="logo4" />
-      </div>    
+      </div>
     </header>
   );
 };

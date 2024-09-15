@@ -58,7 +58,6 @@ body {
 }
 
 .menu {
-  width: 15%;
   background-color: #abbdab;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -79,7 +78,7 @@ body {
 
 .content {
   background-color: #e4e1e0;
-  width: 85%;
+  width: 68%;
   padding: 30px 175px 0px;
   display: flex;
   flex-direction: column;
@@ -115,4 +114,67 @@ footer {
 
 img {
   margin: 10px;
+}
+
+/* Media queries pour les tablettes */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 20px;
+  }
+
+  .header-text {
+    font-size: 40px;
+  }
+
+  .menu {
+    font-size: 18px;
+  }
+
+  .content {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content h2 {
+    font-size: 20px;
+  }
+}
+
+/* Media queries pour les téléphones */
+@media (max-width: 480px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .header-text {
+    font-size: 30px;
+  }
+
+  .menu {
+    font-size: 16px;
+    order: 1;
+  }
+
+  .content {
+    width: 95.5%;
+    padding: 10px;
+    order: 2;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .content h2 {
+    font-size: 18px;
+  }
 }
