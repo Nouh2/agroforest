@@ -152,7 +152,27 @@ img {
   }
 
   .header {
-    padding: 10px;
+    padding: 10px 0px;
+  }
+
+  .logo1 {
+    object-fit: contain;
+    width: 25%;
+  }
+
+  .logo2 {
+    object-fit: contain;
+    width: 15%;
+  }
+
+  .logo3 {
+    object-fit: contain;
+    width: 15%;
+  }
+
+  .logo4 {
+    object-fit: contain;
+    width: 25%;
   }
 
   .header-text {
