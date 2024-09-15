@@ -189,6 +189,9 @@ img {
     padding: 10px;
     order: 2;
   }
+  .content img {
+    width: 100%;
+  }
 
   .content h1 {
     font-size: 30px;
