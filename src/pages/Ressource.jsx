@@ -31,7 +31,7 @@ function Ressource() {
         { name: "Bekkaoui et al resilience AFRIMED 2024", link: "./Bekkaoui et al resilience AFRIMED 2024.pdf", thumbnail: "./background.jpg" },
         { name: "Carbone de _sols en Afrique", link: "./Carbone_des_sols_en_Afrique.pdf", thumbnail: "./background.jpg" },
         { name: "El Koudrim et al agroforestery AFRIMED 2024", link: "./El Koudrim et al agroforestery AFRIMED 2024.pdf", thumbnail: "./background.jpg" },
-        { name: "Gestion durable de leau et des sols au Maroc", link: "./Gestion_durable_de_leau_et_des_sols_au_Maroc.pdf", thumbnail: "./background.jpg" },
+        { name: "Gestion durable de leau et des sols au Maroc", link: "", thumbnail: "./background.jpg" },
         { name: "Recueil des résumés Séminaire Agroforesterie", link: "./Recueil-des-résumés-Séminaire-Agroforesterie_13-juil-2023.pdf", thumbnail: "./background.jpg" },
         { name: "Bekkaoui Congres Intern Arganier final", link: "./Bekkaoui Congres Intern Arganier final- 11.pptx", thumbnail: "./background.jpg" },
       ],
