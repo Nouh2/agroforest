@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  background: url("../public/background.jpg") no-repeat center center;
+  background-color: #e4e1e0;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -38,7 +38,7 @@ body {
   margin-right: 10px;
 }
 .logo3 {
-  height: 130px;
+  height: 150px;
   margin-right: 10px;
 }
 .logo4 {
@@ -58,11 +58,13 @@ body {
 }
 
 .menu {
-  background-color: #abbdab;
+  background-color: #373534;
+  color: #e4e1e0;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   font-size: 20px;
   font-weight: bold;
+  width: 20%;
 }
 .menu a {
   display: block;
@@ -77,16 +79,37 @@ body {
 }
 
 .content {
-  background-color: #e4e1e0;
-  width: 68%;
-  padding: 30px 175px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e4e1e0;
 }
 .content img {
   margin-top: 20px;
   margin-bottom: 0px;
+}
+ol {
+  list-style-type: none;
+}
+.background {
+  background: url(../public/background.jpg) no-repeat center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e4e1e0;
+  width: 100%;
+  height: 290px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 14px 15px 17px 0px;
 }
 .quote {
   display: flex;
@@ -114,6 +137,43 @@ footer {
 
 img {
   margin: 10px;
+}
+.main-content-ressource {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 70px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav a {
+  font-size: 30px;
+  color: #7dada4;
+}
+.resource-block {
+  margin-bottom: 50px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 14px 15px 17px 0px;
+}
+.resource-block h2 {
+  padding: 10px 20px;
+}
+.thumbnails {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.thumbnail {
+  text-align: center;
+}
+
+.thumbnail img {
+  object-fit: cover;
+  width: 100px;
+  border-radius: 100px;
 }
 
 /* Media queries pour les tablettes */

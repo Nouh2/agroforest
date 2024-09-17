@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -7,7 +7,7 @@ const Menu = () => {
       <a href="./flyer.pdf" target="_blank" rel="noopener noreferrer">
         Programme
       </a>
-      <p>Ressources Techniques</p>
+      <Link to="/ressource">Ressources Techniques</Link>
     </aside>
   );
 };
