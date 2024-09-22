@@ -92,7 +92,8 @@ ol {
   list-style-type: none;
 }
 .background {
-  background: url(../public/background.jpg) no-repeat center center;
+  background: url(../public/background.jpg) no-repeat center;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,6 +139,9 @@ footer {
 img {
   margin: 10px;
 }
+
+/* page 2 */
+
 .main-content-ressource {
   display: flex;
   flex-direction: column;
@@ -164,6 +168,7 @@ img {
   display: flex;
   gap: 10px;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .thumbnail {
@@ -203,6 +208,21 @@ img {
   .content h2 {
     font-size: 20px;
   }
+
+  /* page 2 */
+
+  .main-content-ressource {
+    padding: 20px 30px;
+  }
+
+  .nav a {
+    font-size: 24px;
+  }
+
+  .thumbnails {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Media queries pour les téléphones */
@@ -239,14 +259,28 @@ img {
     font-size: 30px;
   }
 
+  .header-logos {
+    height: 100px;
+  }
+
   .menu {
     font-size: 16px;
     order: 1;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .menu a {
+    padding: 10px;
+  }
+  .background {
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .content {
     width: 95.5%;
-    padding: 10px;
+    padding: 10px 9px;
     order: 2;
   }
   .content img {
@@ -255,9 +289,40 @@ img {
 
   .content h1 {
     font-size: 30px;
+    padding: 10px 0px;
   }
 
   .content h2 {
     font-size: 18px;
+  }
+  .text {
+    padding: 10px;
+  }
+  ol {
+    list-style-type: disc;
+    text-align: justify;
+  }
+
+  /* page 2 */
+
+  .main-content-ressource {
+    padding: 10px 20px;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+
+  .nav a {
+    font-size: 20px;
+  }
+
+  .resource-block {
+    margin-bottom: 30px;
+  }
+
+  .thumbnails {
+    flex-direction: column;
+    align-items: center;
   }
 }
