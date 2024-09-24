@@ -11,11 +11,11 @@ function Ressource() {
       subsections: [
         {
           items: [
-            { name: "Olivier", link: "./1. Olivier.docx", thumbnail: "./atel.jpeg" },
-            { name: "Arganier", link: "./2. Arganier.docx", thumbnail: "./atel.jpeg" },
-            { name: "Caroubier", link: "./3. Caroubier.docx", thumbnail: "./atel.jpeg" },
-            { name: "Atriplex et Cactus", link: "./4. Atriplex et Cactus.docx", thumbnail: "./atel.jpeg" },
-            { name: "Amandier et Pistachier", link: "./5. Amandier et Pistachier.docx", thumbnail: "./atel.jpeg" },
+            { name: "Fiche Olivier", link: "./1. Atelier Olivier.pdf", thumbnail: "./atel.jpeg" },
+            { name: "Fiche Arganier", link: "./2. Atelier Arganier.pdf", thumbnail: "./atel.jpeg" },
+            { name: "Fiche Caroubier", link: "./3. Atelier Caroubier.pdf", thumbnail: "./atel.jpeg" },
+            { name: "Fiche Atriplex et Cactus", link: "./4. Atelier Atriplex et Cactus.pdf", thumbnail: "./atel.jpeg" },
+            { name: "Fiche Amandier et Pistachier", link: "./5. Atelier Amandier et Pistachier.pdf", thumbnail: "./atel.jpeg" },
           ],
         },
       ],
