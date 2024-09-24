@@ -23,6 +23,11 @@ function Content() {
               En réunissant les principaux décideurs de la chaine de valeur agricole, cette première édition vise à permettre à chacun d'enrichir la feuille de route pour une agriculture marocaine résiliente, durable et souveraine.
           </p>
         </div>
+        
+      </div>
+      <div className="icarda">
+        <p>Avec le soutien de :</p>
+        <img src="./icarda.png" alt="icarda" />
       </div>
       <img src="./footer.png" alt="footer" />
     </div>

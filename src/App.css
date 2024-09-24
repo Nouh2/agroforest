@@ -119,6 +119,16 @@ ol {
   font-weight: bold;
   font-size: 20px;
 }
+.icarda {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.icarda img {
+  width: 50%;
+}
 .content h1 {
   font-size: 50px;
   margin-bottom: 5px;
@@ -294,6 +304,9 @@ img {
 
   .content h2 {
     font-size: 18px;
+  }
+  .icarda img {
+    width: 50%;
   }
   .text {
     padding: 10px;

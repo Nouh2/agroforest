@@ -6,6 +6,20 @@ import Header from "../components/Header";
 
 function Ressource() {
   const resources = [
+     {
+      title: "Fiches de cadrage des ateliers",
+      subsections: [
+        {
+          items: [
+            { name: "Olivier", link: "./1. Olivier.docx", thumbnail: "./atel.jpeg" },
+            { name: "Arganier", link: "./2. Arganier.docx", thumbnail: "./atel.jpeg" },
+            { name: "Caroubier", link: "./3. Caroubier.docx", thumbnail: "./atel.jpeg" },
+            { name: "Atriplex et Cactus", link: "./4. Atriplex et Cactus.docx", thumbnail: "./atel.jpeg" },
+            { name: "Amandier et Pistachier", link: "./5. Amandier et Pistachier.docx", thumbnail: "./atel.jpeg" },
+          ],
+        },
+      ],
+    },
     {
       title: "Fiches Pédagogiques",
       subsections: [
@@ -43,13 +57,19 @@ function Ressource() {
     {
       title: "Articles de Recherches",
       items: [
-        { name: "Agroforestry in Morocco Sais case", link: "./AgroforestryinMoroccoSaiscase.pdf", thumbnail: "./ar.jpg" },
-        { name: "Argan oil foot_print Bayssi et al 2024", link: "./Argan oil foot_print Bayssi et al 2024.pdf", thumbnail: "./ar.jpg" },
-        { name: "Bekkaoui et al resilience AFRIMED 2024", link: "./Bekkaoui et al resilience AFRIMED 2024.pdf", thumbnail: "./ar.jpg" },
-        { name: "Carbone de _sols en Afrique", link: "./Carbone_des_sols_en_Afrique.pdf", thumbnail: "./ar.jpg" },
-        { name: "El Koudrim et al agroforestery AFRIMED 2024", link: "./El Koudrim et al agroforestery AFRIMED 2024.pdf", thumbnail: "./ar.jpg" },
-        { name: "Recueil des résumés Séminaire Agroforesterie", link: "./Recueil-des-résumés-Séminaire-Agroforesterie_13-juil-2023.pdf", thumbnail: "./ar.jpg" },
-        { name: "Bekkaoui Congres Intern Arganier final", link: "./Bekkaoui Congres Intern Arganier final- 11.pptx", thumbnail: "./ar.jpg" },
+        { name: "Agroforestry in Morocco Sais case", link: "./AgroforestryinMoroccoSaiscase.pdf", thumbnail: "./diplome.png" },
+        { name: "Argan oil foot_print Bayssi et al 2024", link: "./Argan oil foot_print Bayssi et al 2024.pdf", thumbnail: "./diplome.png" },
+        { name: "Bekkaoui et al resilience AFRIMED 2024", link: "./Bekkaoui et al resilience AFRIMED 2024.pdf", thumbnail: "./diplome.png" },
+        { name: "Carbone de _sols en Afrique", link: "./Carbone_des_sols_en_Afrique.pdf", thumbnail: "./diplome.png" },
+        { name: "El Koudrim et al agroforestery AFRIMED 2024", link: "./El Koudrim et al agroforestery AFRIMED 2024.pdf", thumbnail: "./diplome.png" },
+        { name: "Recueil des résumés Séminaire Agroforesterie", link: "./Recueil-des-résumés-Séminaire-Agroforesterie_13-juil-2023.pdf", thumbnail: "./diplome.png" },
+        { name: "Bekkaoui Congres Intern Arganier final", link: "./Bekkaoui Congres Intern Arganier final- 11.pptx", thumbnail: "./diplome.png" },
+        { name: "Optimal distance between olive trees", link: "./Optimal distance between olive trees and annual crops in rainfed.pdf", thumbnail: "./diplome.png" },
+        { name: "Pomegranate–Quinoa-Based Agroforestry System", link: "./Pomegranate–Quinoa-Based Agroforestry System.pdf", thumbnail: "./diplome.png" },
+        { name: "Quinoa–Olive Agroforestry System Assessment in Semi-Arid", link: "./Quinoa–Olive Agroforestry System Assessment in Semi-Arid.pdf", thumbnail: "./diplome.png" },
+        { name: "Soil Properties at Different Distances", link: "./Soil Properties at Different Distances.pdf", thumbnail: "./diplome.png" },
+        { name: "Productivité et efficience des systèmes agroforestiers", link: "./Productivité et efficience des systèmes agroforestiers.pdf", thumbnail: "./diplome.png" },
+        { name: "Yield and related traits of three legume crops grown in olive-based", link: "./Yield and related traits of three legume crops grown in olive-based.pdf", thumbnail: "./diplome.png" },
       ],
     },
     {
