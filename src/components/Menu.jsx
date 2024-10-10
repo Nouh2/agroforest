@@ -8,6 +8,11 @@ const Menu = () => {
         Programme
       </a>
       <Link to="/ressource">Ressources Techniques</Link>
+      <Link to="/restitution">Restitution</Link>
+      <Link to="/medialibrary">Media Library</Link>
+      <a href="https://www.upyaconnect.org/fr" target="_blank" rel="noopener noreferrer">
+        Hub de connaissances
+      </a>
     </aside>
   );
 };
