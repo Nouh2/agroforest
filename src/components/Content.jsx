@@ -25,10 +25,6 @@ function Content() {
         </div>
         
       </div>
-      <div className="icarda">
-        <p>Avec le soutien de :</p>
-        <img src="./icarda.png" alt="icarda" />
-      </div>
       <img src="./footer.png" alt="footer" />
     </div>
   );

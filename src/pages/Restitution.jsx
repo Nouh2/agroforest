@@ -6,32 +6,27 @@ import { Link } from "react-router-dom";
 
 const restitutions = [
     {
-      title: "Compte-rendu",
-      subsections: [
-        {
-          items: [
-            { name: "Olivier", link: "/Compte/Compte rendu atelier olivier .pdf", thumbnail: "./atel.jpeg" },
-            { name: "Arganier", link: "/Compte/Compte-rendu atelier Arganier.pdf", thumbnail: "./atel.jpeg" },
-            { name: "Atriplex et Cactus", link: "/Compte/Compte-rendu atelier Atriplex Cactus.pdf", thumbnail: "./atel.jpeg" },
-            { name: "Caroubier", link: "/Compte/Compte-rendu atelier caroubier .pdf", thumbnail: "./atel.jpeg" },
-            { name: "Atelier transversal", link: "/Compte/Compte-rendu atelier transversal.pdf", thumbnail: "./atel.jpeg" },
-            { name: "Amandier et Pistachier", link: "/Compte/Compte-rendu atelier Pistachier_Amandier.pdf", thumbnail: "./atel.jpeg" },
-          ],
-        },
-      ],
-    },
-
-    {
       title: "Synthèse globale",
       subsections: [
         {
           items: [
-            { name: "Olivier", link: "/Compte/Compte rendu atelier olivier .pdf", thumbnail: "./atel.jpeg" },
-            { name: "Arganier", link: "/Compte/Compte-rendu atelier Arganier.pdf", thumbnail: "./atel.jpeg" },
-            { name: "Atriplex et Cactus", link: "/Compte/Compte-rendu atelier Atriplex Cactus.pdf", thumbnail: "./atel.jpeg" },
-            { name: "Caroubier", link: "/Compte/Compte-rendu atelier caroubier .pdf", thumbnail: "./atel.jpeg" },
-            { name: "Atelier transversal", link: "/Compte/Compte-rendu atelier transversal.pdf", thumbnail: "./atel.jpeg" },
-            { name: "Amandier et Pistachier", link: "/Compte/Compte-rendu atelier Pistachier_Amandier.pdf", thumbnail: "./atel.jpeg" },
+            { name: "Restitution Journée Agroforesterie", link: "./Restitution Journée Agroforesterie du 26092024.pdf", thumbnail: "./background.jpg" },
+          ],
+        },
+      ],
+    },
+    
+    {
+      title: "Comptes-rendus détaillés",
+      subsections: [
+        {
+          items: [
+            { name: "Atelier Olivier", link: "/Compte/Compte rendu atelier olivier .pdf", thumbnail: "./diplome.png" },
+            { name: "Atelier Arganier", link: "/Compte/Compte-rendu atelier Arganier.pdf", thumbnail: "./diplome.png" },
+            { name: "Atelier Atriplex et Cactus", link: "/Compte/Compte-rendu atelier Atriplex Cactus.pdf", thumbnail: "./diplome.png" },
+            { name: "Atelier Caroubier", link: "/Compte/Compte-rendu atelier caroubier .pdf", thumbnail: "./diplome.png" },
+            { name: "Atelier transversal", link: "/Compte/Compte-rendu atelier transversal.pdf", thumbnail: "./diplome.png" },
+            { name: "Atelier Amandier et Pistachier", link: "/Compte/Compte-rendu atelier Pistachier_Amandier.pdf", thumbnail: "./diplome.png" },
           ],
         },
       ],
@@ -45,7 +40,7 @@ function Restitution() {
       <Header />
       <div className="main-content-ressource">
         <div className="nav">
-          <h1>Ressources Techniques</h1>
+          <h1>Restitution</h1>
           <Link to="/">
             <FontAwesomeIcon icon={faHouse} />
           </Link>
